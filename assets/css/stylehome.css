@@ -202,3 +202,17 @@ input[type="number"] {
 .rlink p {
   font-size: 22px;
 }
+.box-transparent {
+  position: fixed;
+  top: 375px;
+  left: 500px;
+  bottom: 100px;
+  right: 500px;
+  background-color: rgba(100, 100, 100, 0.6);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 6%;
+  padding-bottom: 10%;
+
+}
+

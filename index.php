@@ -13,6 +13,18 @@
   <body>
     <div class="main">
         <div class="bg"><img src="./assets/images/msi.jpg" alt="img" width="100%" height="75%"></div>
+        <div class="box-transparent">
+          <div style=" float: left;color: white;font-size: 200%;font-family: Arial; font: bolder;top: 50px;">
+          Welcome to the Alumni Portal of Maharaja Surajmal Institute! </div>
+
+          <a href=alumnilogin.php>
+            <button class="btn">ALUMNI LOGIN</button></a>
+            <br><br>
+            <a href=adminlogin.php>
+            <button class="btn">ADMIN LOGIN</button>
+            </a>
+
+          
     </div>
     </div>
     
