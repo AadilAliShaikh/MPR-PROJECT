@@ -18,6 +18,9 @@
     $sql="SELECT * FROM mentorrequests";
     $result=mysqli_query($con,$sql);
     $mentorreq_count=$result->num_rows;
+    $sql="SELECT * FROM signuprequest";
+    $result=mysqli_query($con,$sql);
+    $signuprequest_count=$result->num_rows;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,11 +32,17 @@
 </head>
 <body>
     <div class="admindashboard">
-        <a href="queries.php">
+    <a href="signuprequest.php">
             <div class="dashboard-container">
                 <div class="number"><?php echo $queries_count?></div>
                 <div class="name">QUERIES RECEIVED</div>
                 <div><img src="./assets/images/queries.png" height="75px" width="75px" alt="img" align="right" ></div>
+            </div>
+        <a href="queries.php">
+            <div class="dashboard-container">
+                <div class="number"><?php echo  $signuprequest_count?></div>
+                <div class="name">SIGNUP REQUEST RECEIVED</div>
+                <div><img src="./assets/images/signup.png" height="75px" width="75px" alt="img" align="right" ></div>
             </div>
         </a>
         <a href="achievements.php">

@@ -46,7 +46,8 @@ font: bolder;;"><b> &nbsp&nbsp&nbsp ALUMNI ADMIN PORTAL</b></div>
         <ul> <b>
             <li><a href="adminhome.php"><i class="fa fa-home"></i>&nbsp
                 HOME &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
-            <li><a href="queries.php">QUERIES &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li><br>
+            <li><a href="signuprequest.php">SIGNUP REQUESTS</a></li>
+            <li><a href="queries.php">QUERIES &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>        
             <li><a href="achievements.php">ACHIEVEMENTS&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
             <li><a href="postedjobs.php">POSTED JOBS&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
             <li><a href="mentorrequests.php">MENTOR REQUESTS</a></li>

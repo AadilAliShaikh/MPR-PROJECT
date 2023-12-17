@@ -17,7 +17,7 @@
                 <center>                
                 <br><br>
                 <div class="rlink">
-                    <p><b>REGISTRATION SUCCESSFULL! &nbsp&nbsp&nbsp&nbsp&nbsp</b></p>
+                    <p><b>REGISTRATION REQUESTED! &nbsp&nbsp&nbsp&nbsp&nbsp</b></p>
                     <br><br>
                     <a href="alumnilogin.php">CLICK HERE TO LOGIN</a>
                 </div>

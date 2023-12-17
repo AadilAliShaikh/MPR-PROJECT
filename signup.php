@@ -33,7 +33,7 @@
       elseif(($nameErr=="")&&($passwordErr=="")&&($confirmpwdErr=="")){
         $hashpassword=md5($password);
         // echo '$newpassword';
-        $sql= "INSERT INTO alumnilogin (id,name,email,department,batch,password) VALUES(NULL,'$name','$email','$department','$batch','$hashpassword')";
+        $sql= "INSERT INTO signuprequest (id,name,email,department,batch,password) VALUES(NULL,'$name','$email','$department','$batch','$hashpassword')";
         if(mysqli_query($con,$sql)){
           header("Location: redirectpostsignup.php");
         } 
@@ -137,7 +137,7 @@
                 />
               </div>
               
-              <button type="submit" value="submit" name="submit" class="btn">Register</button><br /><br />
+              <button type="submit" value="submit" name="submit" class="btn">Registration Request</button><br /><br />
             </div></div></form>
       </div>
     </div>
